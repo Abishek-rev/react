@@ -3,8 +3,8 @@ import "./InputField.css";
 import { countries } from "./Data/IndiasData";
 
 export default function InputField() {
-  const reRender= useRef(0);
-  reRender.current+=1
+  const reRender = useRef(0);
+  reRender.current += 1;
   const [state, setState] = useState([]);
   const [cities, setCities] = useState([]);
 
